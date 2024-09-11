@@ -1,0 +1,96 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: var(--font-size, 16px);
+    background-color: var(--background-color, #ffffff);
+    color: var(--text-color, #000000);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #fffafa;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: larger;
+    padding-right: 10%;
+    text-align: center;
+}
+.navp{
+    margin-top: 3%;
+}
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-left: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#hero {
+    position: relative;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 1200px; /* Adjust this value as needed */
+    height: auto;
+    border-radius: 30px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1b1a1a;
+    text-align: center;
+    font-size: x-large;
+}
+
+video {
+    width: 100%;
+    max-width: 800px; /* Adjust this value as needed */
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+#personalization {
+    margin: 2rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
